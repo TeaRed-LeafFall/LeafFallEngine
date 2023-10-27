@@ -1,0 +1,72 @@
+{
+  "unk": "未知字符串路径: {0}",
+  "language": {
+    "base-language": "zh-CN"
+  },
+  "msg": {
+    "language-done": "中文简体加载完成",
+    "crash": "程序发生崩溃！{0}",
+    "hello": "欢迎来到我的程序！",
+    "about": "LeafFall Engine (c) 2023 TeaRed LeafFall&ADVN Project.",
+    "info": "这是一条消息。",
+    "load": "正在加载...",
+    "startup": "启动完成。",
+    "stop": "运行结束啦。"
+  },
+  "window": {
+    "title": "LeafFall Engine"
+  },
+  "log": {
+    "load": "正在载入 {0}"
+  },
+  "System": {
+    "logger": "日志记录器加载完成",
+    "startup": "正在启动LeafFallEngine...",
+    "logger-save": "正在保存日志哟。",
+    "save-log-path": "保存的日志将会在 {0} 哦!"
+  },
+  "PluginsMgr": {
+    "init": "正在初始化插件管理器。",
+    "LoadPluginsAuto": "正在初始化插件列表中☆",
+    "FindDir": "获取到的插件目录:{0}",
+    "CallLoad": "正在呼叫LoadPlugin加载哦: ",
+    "UseTime": "加载和搜索插件总用时共 {0}",
+    "FindDLL": "发现dll文件! {0}",
+    "PluginMsg": "{NewLine}========= An Plugin Information (第 {0} 个) =========={NewLine}插件名称: {1} {NewLine}插件作者: {2} {NewLine}插件版本: {3} {NewLine}插件信息: {4}{NewLine}========= Plugins Mannger =========={NewLine}",
+    "ReadyPlugins": "插件准备操作完成(共 {0} 个) 用时 {1}",
+    "WhoReadyDone": "{0} 的准备操作完成.",
+    "loading-plugin": "正在加载插件: {0}",
+    "PluginsNotFound": "找不到任何插件哎？",
+    "plugin-init-success": "{0} 已初始化完成",
+    "plugin-init-complete": "插件初始化完成(共{0}个) 用时 {1} 哟！",
+    "read-module-name": "★读取到的模块名称为 {0}",
+    "module-requirement-message": "模块{0}: 想要使用，需要包含{1}的声明哦.",
+    "invalid-plugin-message": "模块{0}: 此dll没有插件入口或为{1}的声明，是不规范的插件，不属于插件哦.",
+    "already-declared-message": "模块{0}: 已经包含{1}的声明了哟.",
+    "instantiating-message": "模块{0}: 正在实例化.",
+    "duplicate-plugin-name-message": "{0}插件提供的名称重复: {1}，是不是已经加载过了呢。",
+    "plugin-info-message": "已读取到关于{0}的相关信息啦！{NewLine}\t插件名称：{1}{NewLine}\t插件版本：{2}{NewLine}\t插件作者：{3}{NewLine}\t插件描述：{4}",
+    "add-module-success-message": "添加名为{0}的模块成功了哦.",
+    "failure-message": "插件加载失败啦:{0} 因为:{1}",
+    "load-module-time-message": "加载{0} 耗时 共 {1} 哦",
+    "startup-plugin-time-message": "启动插件用时 共 {0} 哟",
+    "unload-plugins": "正在卸载所有插件哦"
+  },
+  "sys": {
+    "platform": {
+      "warn": "该程序可能不适用于你的平台。"
+    },
+    "thanks": "感谢使用 LeafFall Engine！",
+    "exit": "要结束游戏吗？",
+    "menu": "系统主菜单"
+  },
+  "problem": {
+    "crash": "系统崩溃！",
+    "error": "发生错误！",
+    "error-msg": "在 {0} 中 {1}，",
+    "error-more": "有以下错误(共 {0} 个)",
+    "error-because": "原因:",
+    "nonexistent-path": "诶？不存在的路径: {0}",
+    "debug-mode-failure-message": "因为处于调试模式呀,所以该插件加载失败将忽略:{0}"
+  }
+}

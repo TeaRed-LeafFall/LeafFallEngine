@@ -1,0 +1,72 @@
+{
+  "unk": "Unknown string path: {0}",
+  "language": {
+    "base-language": "en"
+  },
+  "msg": {
+    "language-done": "English language loaded",
+    "crash": "The program crashed! {0}",
+    "hello": "Welcome to my program!",
+    "about": "LeafFall Engine (c) 2023 TeaRed LeafFall&ADVN Project.",
+    "info": "This is a message.",
+    "load": "Loading...",
+    "startup": "Startup complete.",
+    "stop": "Program stopped."
+  },
+  "window": {
+    "title": "LeafFall Engine"
+  },
+  "log": {
+    "load": "Loading {0}"
+  },
+  "System": {
+    "logger": "Logger loaded",
+    "startup": "Starting LeafFall Engine...",
+    "logger-save": "Saving the log.",
+    "save-log-path": "The log will be saved at {0}!"
+  },
+  "PluginsApi": {
+    "init": "Initializing plugin manager.",
+    "LoadPluginsAuto": "Initializing the plugin list",
+    "FindDir": "Plugin directory found: {0}",
+    "CallLoad": "Calling LoadPlugin: ",
+    "UseTime": "Total time spent on loading and searching plugins: {0}",
+    "FindDLL": "DLL file found! {0}",
+    "PluginMsg": "{NewLine}========= An Plugin Information (No. {0}) =========={NewLine}Plugin Name: {1} {NewLine}Plugin Author: {2} {NewLine}Plugin Version: {3} {NewLine}Plugin Info: {4}{NewLine}========= Plugins Mannger =========={NewLine}",
+    "ReadyPlugins": "Ready operation completed for plugins (Total: {0}, Time: {1})",
+    "WhoReadyDone": "Ready operation completed for {0}.",
+    "loading-plugin": "Loading plugin: {0}",
+    "PluginsNotFound": "No plugins found.",
+    "plugin-init-success": "{0} initialized successfully.",
+    "plugin-init-complete": "Plugin initialization complete (Total: {0}, Time: {1})",
+    "read-module-name": "★Module name read: {0}",
+    "module-requirement-message": "Module {0}: To use, it needs to include the declaration of {1}.",
+    "invalid-plugin-message": "Module {0}: This DLL does not have a plugin entry or declaration of {1}, it is not a valid plugin and may not belong to ParallelEngine.",
+    "already-declared-message": "Module {0}: Already contains the declaration of {1}.",
+    "instantiating-message": "Module {0}: Instantiating.",
+    "duplicate-plugin-name-message": "{0} plugin provides a duplicate name: {1}",
+    "plugin-info-message": "Plugin info for {0} has been read!{NewLine}\tPlugin Name: {1}{NewLine}\tPlugin Version: {2}{NewLine}\tPlugin Author: {3}{NewLine}\tPlugin Description: {4}",
+    "add-module-success-message": "Successfully added module with name {0}.",
+    "failure-message": "Failed to load plugin: {0} because: {1}",
+    "load-module-time-message": "Loading {0} took {1}",
+    "startup-plugin-time-message": "Time spent on starting plugins: {0}",
+    "unload-plugins": "Unloading all plugins."
+  },
+  "sys": {
+    "platform": {
+      "warn": "This program may not be suitable for your platform."
+    },
+    "thanks": "Thank you for using LeafFall Engine!",
+    "exit": "Do you want to exit the program?",
+    "menu": "System main menu"
+  },
+  "problem": {
+    "crash": "System crashed!",
+    "error": "An error occurred!",
+    "error-msg": "In {0}, {1}",
+    "error-more": "There are {0} errors in total.",
+    "error-because": "Because:",
+    "nonexistent-path": "Oops? Nonexistent path: {0}",
+    "debug-mode-failure-message": "The plugin loading failure is ignored because it is in debug mode: {0}"
+  }
+}
