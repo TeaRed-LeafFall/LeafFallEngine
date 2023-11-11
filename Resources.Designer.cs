@@ -111,6 +111,52 @@ namespace LeafFallEngine {
         }
         
         /// <summary>
+        ///   查找类似 即将加载绝对路径的dll，请确保编译后执行！ 的本地化字符串。
+        /// </summary>
+        public static string Program_Main_ {
+            get {
+                return ResourceManager.GetString("Program_Main_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 注意: 调试模式当中! 的本地化字符串。
+        /// </summary>
+        public static string Program_Main_注意__调试模式当中_ {
+            get {
+                return ResourceManager.GetString("Program_Main_注意__调试模式当中_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 ; 这里是程序主菜单
+        ///@Menu name=&quot;MainWindowMenu&quot;
+        ///    @Submenu &quot;操作&quot;
+        ///        #MenuItem &quot;返回&quot;
+        ///        #MenuItem type=&quot;separate&quot;
+        ///        #MenuItem &quot;暂停&quot;
+        ///        #MenuItem &quot;退出&quot;
+        ///    @clr Submenu
+        ///    ; 进度设置
+        ///    @Submenu &quot;进度&quot;
+        ///        #MenuItem &quot;上一选项&quot;
+        ///        #MenuItem &quot;日志&quot;
+        ///        #MenuItem type=&quot;separate&quot;
+        ///        #MenuItem 自动播放 type=&quot;check&quot;
+        ///        @Submenu &quot;自动播放速度&quot; type=&quot;choice&quot;
+        ///            #MenuItem &quot;0.25x&quot;
+        ///            #MenuItem &quot;0.5x&quot;
+        ///            #MenuItem &quot;1.0x&quot;
+        ///            #MenuItem &quot;1.25x&quot;
+        ///            [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        public static string test {
+            get {
+                return ResourceManager.GetString("test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
         public static byte[] zh_cn {

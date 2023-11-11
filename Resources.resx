@@ -136,4 +136,85 @@
   <data name="zh_cn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\zh_cn.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Program_Main_" xml:space="preserve">
+    <value>即将加载绝对路径的dll，请确保编译后执行！</value>
+  </data>
+  <data name="Program_Main_注意__调试模式当中_" xml:space="preserve">
+    <value>注意: 调试模式当中!</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>; 这里是程序主菜单
+@Menu name="MainWindowMenu"
+    @Submenu "操作"
+        #MenuItem "返回"
+        #MenuItem type="separate"
+        #MenuItem "暂停"
+        #MenuItem "退出"
+    @clr Submenu
+    ; 进度设置
+    @Submenu "进度"
+        #MenuItem "上一选项"
+        #MenuItem "日志"
+        #MenuItem type="separate"
+        #MenuItem 自动播放 type="check"
+        @Submenu "自动播放速度" type="choice"
+            #MenuItem "0.25x"
+            #MenuItem "0.5x"
+            #MenuItem "1.0x"
+            #MenuItem "1.25x"
+            #MenuItem "1.5x"
+            #MenuItem "2.0x"
+        @clr Submenu
+        #MenuItem "未读跳过" type="check"
+        #MenuItem "下一句(Enter)"
+        #MenuItem "下一选项"
+        #MenuItem type="separate"
+        #MenuItem "剧情路线图"
+        #MenuItem "设置目标路线"
+    @clr Submenu
+    ; 打开界面
+    @Submenu "界面"
+        #MenuItem "SaveData"
+        #MenuItem "Setting"
+        #MenuItem "Menu"
+        #MenuItem "MainMenu"
+        #MenuItem "About"
+    @clr Submenu
+    ; 渲染设置
+    @Submenu "渲染"
+        @Submenu "技术"
+            #MenuItem "GDI+"
+        @clr Submenu
+        @Submenu "FPS 限制"
+            #MenuItem "30"
+            #MenuItem "60"
+            #MenuItem type="separate"
+            #MenuItem "无限制"
+        @clr Submenu
+        @Submenu "窗口(画布大小)"
+            #MenuItem "1280*720(HD)"
+            #MenuItem "1920*1080(FHD)"
+        @clr Submenu
+        #MenuItem "FPS Display" type="check"
+    @clr Submenu
+    ; 快捷操作菜单
+    @Submenu "快捷"
+        #MenuItem "最小化"
+        #MenuItem "最大化(F11)"
+        #MenuItem "静音" type="check"
+        #MenuItem "躲避功能"
+        #MenuItem type="separate"
+        #MenuItem "设置界面"
+    @clr Submenu
+    ; 帮助菜单
+    @Submenu "帮助"
+        #MenuItem "关于"
+        #MenuItem "关于 LeafFall Engine"
+        #MenuItem "官方网站"
+        #MenuItem type="separate"
+        #MenuItem "评价作品"
+        #MenuItem "反馈问题"
+    @clr Submenu
+@clr Menu</value>
+  </data>
 </root>
